@@ -1,0 +1,39 @@
+ canvas {
+    background-color: #0a0a0a;
+    display: block;
+    width: 100%;
+ }
+
+ .controls-card {
+    width: 13rem;
+    height: 10rem;
+    border: 2px solid rgb(152, 145, 145);
+    position: relative;
+    padding: 10px;
+ }
+
+
+ .top{
+   position: absolute;
+   left: 70px;
+   width: 4rem;
+ }
+ .left{
+   position: absolute;
+   left: 10px;
+   top: 60px;
+   width: 4rem;
+ }
+
+ .right{
+   position: absolute;
+   width: 4rem;
+   right: 10px;
+   top: 60px;
+ }
+ .bottom{
+   position: absolute;
+   left: 70px;
+   width: 4rem;
+   bottom: 10px;
+ }
